@@ -25,7 +25,7 @@ const HeroSection = () => {
      <TypeAnimation
       sequence={[
        
-        'Ahraf Ahmed',
+        'Ashraf Ahmed',
         1000,
        
         'Senior Frontend Developer',
