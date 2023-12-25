@@ -6,6 +6,7 @@ import { useState } from "react";
 
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/solid"
 import MenuOverlay from "./MenuOverlay";
+import Image from "next/image";
 
 
 const Navlinks = [
@@ -26,9 +27,9 @@ const NavBar = () => {
 
   const [isMenuOpen,setIsMenuOpen]= useState(false)
   return (
-    <nav className="fixed top-0 left-0 mx-auto border border-[#33353F] right-0 z-10 py-4 px-4 bg-[#121212] bg-opacity-100">
-    <div className="flex container justify-between lg:py-4 items-center  mx-auto flex-wrap px-4 py-2 ">
-    <Link  href="/" className="logo md:text-5xl text-white font-semibold text-2xl">Logo</Link> 
+    <nav className="fixed top-0 left-0 mx-auto border border-[#33353F] right-0 z-10 py-2 px-4 bg-[#121212] bg-opacity-100">
+    <div className="flex container justify-between lg:py-2 items-center  mx-auto flex-wrap px-4 py-2 ">
+    <Link   href="/"><Image className="rounded-full w-16 h-16 border-2 border-purple-500" src="/mylogo.jpg" alt="logo" width={60} height={60} /></Link> 
 
     <div className="mobile-menu block md:hidden">
      {!isMenuOpen ? (

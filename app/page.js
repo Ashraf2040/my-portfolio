@@ -9,7 +9,7 @@ import ProjectsSection from "./components/ProjectsSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen  flex-col bg-[#121212] container" >
+    <main className="flex min-h-screen   flex-col bg-[#121212] " >
     <NavBar />
     <div className="container mx-auto py-4 px-12 mt-24">
     
