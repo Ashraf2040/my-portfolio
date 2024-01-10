@@ -49,7 +49,7 @@ const HeroSection = () => {
    initial={{opacity:0,scale:0.5}}
     animate={{opacity:1,scale:1}}
     transition={{duration : 1}} className="col-span-4 place-self-center mt-4 lg:mt-0">
-   <div className="rounded-full flex items-center justify-center bg-[#181818] relative lg:h-[400px] lg:w-[400px] h-[250px] w-[250px]"><Image src="/hero-image.png" alt="hero-image" className="" width={300} height={300} /></div>
+   <div className="rounded-full flex items-center justify-center bg-[#181818] relative lg:h-[400px] lg:w-[400px] h-[250px] w-[250px] border-purple-500 border-4"><Image src="/2nd-logo.jpeg" alt="hero-image" className="rounded-full" width={500} height={500} /></div>
   </motion.div>
     </div>
     </section>

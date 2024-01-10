@@ -10,48 +10,57 @@ const projects =[
 
 {
   id:1,
+  title : "YouUo Shopping",
+  description : "This Project covers the concepts of Nextjs.14 -Typescript- Tailwindcss-daisyUi -Prisma- Next-Auth  ",
+  image : "/ecommerce.png",
+  tag : ["All","Web"],
+  gitUrl:"https://github.com/Ashraf2060/Next-Ecommerce",
+  previewUrl:"https://next-ecommerce-nu-nine.vercel.app/"
+},
+{
+  id:2,
   title : "First React Pizza",
   description : "This Project covers the concepts of React - react-Hooks Redux ToolKit,and many more ",
   image : "/pizza-app.png",
   tag : ["All","Web"],
   gitUrl:"http://localhost:3000/",
-  previewUrl:"http://localhost:3000/"
+  previewUrl:"https://ashraf-pizza-app.netlify.app/"
 },
 {
-  id:2,
+  id:3,
   title : "Al-Ahly Club Bank",
   description : "This project based on Nextjs tailwindcss for styling next-auth for authentication and many more",
   image : "/bank-app.png",
   tag : ["All","Web"],
-  gitUrl:"http://localhost:3000/",
-  previewUrl:"http://localhost:3000/"
+  gitUrl:"https://github.com/Ashraf2040/my-bank",
+  previewUrl:"https://my-bank-1-3jzk8tf5a-ashrafs-projects-f9bf5497.vercel.app"
 },
 {
-  id:3,
+  id:4,
   title : "CRUD Project",
   description : "This project covers the concepts of vanilla javascript as well as the pure css for styling",
   image : "/second-crud-app.png",
   tag : ["All","Web"],
   gitUrl:"http://localhost:3000/",
-  previewUrl:"http://localhost:3000/"
+  previewUrl:"https://second-crud.vercel.app/"
 },
 {
-  id:4,
+  id:5,
   title : "Add Tasks and Choose Drinks",
   description : "This project based on Nextjs 14 tailwindcss and daisyui for styling also using prisma for database and many more",
   image : "/drinks-tasks-app.png",
   tag : ["All","Web"],
-  gitUrl:"http://localhost:3000/",
-  previewUrl:"http://localhost:3000/"
+  gitUrl:"https://github.com/Ashraf2040/next-tasks-project",
+  previewUrl:""
 },
 {
-  id:5,
+  id:6,
   title : "CRUD Dashboard",
   description : "This project based on Nextjs 14 as well as rechart library and next-auth for authentication also using mongodb and mongoose for database manipulation",
   image : "/crud-dashboard.png",
   tag : ["All","Web"],
   gitUrl:"http://localhost:3000/",
-  previewUrl:"http://localhost:3000/"
+  previewUrl:"https://second-crud.vercel.app/"
 },
 
 

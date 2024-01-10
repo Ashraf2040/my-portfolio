@@ -129,6 +129,7 @@ const EmailSection = () => {
             )}
           </form>
         
+        
       </div>
     </section>
   );
