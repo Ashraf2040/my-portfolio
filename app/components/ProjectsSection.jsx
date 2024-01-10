@@ -51,7 +51,7 @@ const projects =[
   image : "/drinks-tasks-app.png",
   tag : ["All","Web"],
   gitUrl:"https://github.com/Ashraf2040/next-tasks-project/tree/main/app",
-  previewUrl:"https://next-tasks-project-6zzixz3t6-ashrafs-projects-f9bf5497.vercel.app/"
+  previewUrl:"https://next-tasks-project.vercel.app/"
 },
 {
   id:6,
