@@ -50,8 +50,8 @@ const projects =[
   description : "This project based on Nextjs 14 tailwindcss and daisyui for styling also using prisma for database and many more",
   image : "/drinks-tasks-app.png",
   tag : ["All","Web"],
-  gitUrl:"https://github.com/Ashraf2040/next-tasks-project",
-  previewUrl:""
+  gitUrl:"https://github.com/Ashraf2040/next-tasks-project/tree/main/app",
+  previewUrl:"https://next-tasks-project-6zzixz3t6-ashrafs-projects-f9bf5497.vercel.app/"
 },
 {
   id:6,
